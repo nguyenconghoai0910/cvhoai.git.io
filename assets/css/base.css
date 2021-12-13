@@ -1,0 +1,26 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:rgb(3, 1, 20);
+    --header-color:rgb(71,144,153);
+    --primary-color:rgb(7,203,121);
+    --boder-color:#dbdbdb;
+    --star-gold-color:#ffce3e;
+    --header-width:255px; 
+}
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+.start-gold{
+    color: var(--star-gold-color);
+}
